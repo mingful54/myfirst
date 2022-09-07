@@ -1,0 +1,46 @@
+body{
+  margin: 0;
+}
+#weki{
+  text-decoration: underline;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+h1{
+  font-size: 45px;
+  text-align: center;
+  border-bottom: 2px solid brown;
+  padding: 30px;
+  margin: 0;
+}
+#grid ol{
+  border-right: 2px solid brown;
+  margin: 0;
+  padding: 20px;
+  padding-left: 40px;
+
+}
+#grid{
+  display: grid;
+  grid-template-columns: 270px 1fr;
+}#grid #arti{
+  padding: 20px;
+  text-align: center;
+}
+  .harry{
+    display: contents;
+    font-weight: bold;
+  }
+@media(max-width:930px){
+  h1{
+    border-bottom : none;
+  }
+  #grid ol{
+    border-right: none;
+  }
+  #grid{
+    display:block;
+  }
+}
